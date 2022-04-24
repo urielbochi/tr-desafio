@@ -37,7 +37,7 @@
 
 .table__overflow {
   margin-top: 50px;
-  overflow-x: scroll;
+  overflow-y: scroll;
   height: 750px;
 }
 
