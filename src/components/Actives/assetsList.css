@@ -37,10 +37,11 @@
 
 .table__overflow {
   margin-top: 50px;
+  overflow-x: scroll;
+  height: 80vh;
 }
 
 .scroll-container {
-  height: 80vh;
 }
 
 table {
@@ -97,7 +98,9 @@ tr.border-bottom:hover {
     .units__margin-fix table {
         width: 500px;
     }
-    
+    .table__overflow {
+      height: 100vh;
+    }
    
   }
 }
