@@ -107,6 +107,9 @@ tr.border-bottom:hover {
       width: 70vw;
     }
   }
+  .units__margin-fix table {
+    margin-left: -200px;
+ }
 }
 
 @media only screen and (min-width: 1201px) {
@@ -121,7 +124,21 @@ tr.border-bottom:hover {
       width: 70vw;
     }
   }
+  .units__margin-fix table {
+     margin-left: -220px;
+  }
 }
+
+@media only screen and (min-width: 1367px) {
+  @media only screen and (max-width: 1940px) {
+    .units__margin-fix table {
+      margin-left: -100px;
+
+    }
+
+  }
+}
+
 
 @media only screen and (min-width: 500px) {
   @media only screen and (max-width: 979px) {
