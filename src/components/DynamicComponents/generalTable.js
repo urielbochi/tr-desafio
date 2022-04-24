@@ -62,7 +62,6 @@ function GeneralTable({ objectProp }) {
   };
   return (
     <div className={`table__overflow ${addClass}`}>
-      <ScrollContainer className="scroll-container">
       <table className={tableClass}>
         <thead>
           <tr>
@@ -127,8 +126,6 @@ function GeneralTable({ objectProp }) {
           })}
         </tbody>
       </table>
-      </ScrollContainer>
-
     </div>
   );
 }
