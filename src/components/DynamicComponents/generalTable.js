@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import GlobalModal from "../Modal/globalModal";
 import ScrollContainer from 'react-indiana-drag-scroll'
 import GenericRenderById from "./genericRenderById";
-import "../Actives/assetsList.css";
+import "./generalTable.css";
 
 function GeneralTable({ objectProp }) {
   const { url, mainData, setMainData, urlRoute } = objectProp;

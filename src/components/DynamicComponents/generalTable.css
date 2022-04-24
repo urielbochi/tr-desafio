@@ -6,10 +6,6 @@
   border-radius: 20px;
 }
 
-.icons-size__assets {
-  font-size: 20px;
-}
-
 .fa-trash-can {
   color: rgb(141, 19, 19);
 }
@@ -41,9 +37,6 @@
   height: 750px;
 }
 
-.scroll-container {
-}
-
 table {
   width: 80vw;
   border-spacing: 0 1em;
@@ -53,9 +46,6 @@ table {
 .companies__margin-fix table {
   width: 70vw;
 }
-
-
-
 
 table > thead {
   font-size: 1.5rem;
@@ -90,19 +80,17 @@ tr.border-bottom:hover {
     }
     .companies__margin-fix {
       margin-left: -40px;
-
     }
     .companies__margin-fix table {
       width: 450px;
     }
     .units__margin-fix table {
-        width: 500px;
+      width: 500px;
     }
     .table__overflow {
       height: auto;
       overflow-y: hidden;
     }
-   
   }
 }
 
@@ -117,10 +105,9 @@ tr.border-bottom:hover {
 
     .companies__margin-fix table {
       width: 70vw;
-    } 
+    }
   }
 }
-
 
 @media only screen and (min-width: 1201px) {
   @media only screen and (max-width: 1366px) {
@@ -132,7 +119,7 @@ tr.border-bottom:hover {
     }
     .companies__margin-fix table {
       width: 70vw;
-    } 
+    }
   }
 }
 

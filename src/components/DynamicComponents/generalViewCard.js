@@ -52,7 +52,7 @@ function GeneralViewCard({ parameter, urlRoute }) {
               e.target.src = notFound; // some replacement image
             }}
           />
-          <div className="asset__container">
+          <div className="asset__container view-mobile-fix">
             <div className="info">
               <p className="info-txt">Nome</p>
               <p className="assert__image-title">{parameter.name}</p>
@@ -78,11 +78,11 @@ function GeneralViewCard({ parameter, urlRoute }) {
               </div>
             </div>
           </div>
-          <div className="asset__container">
+          <div className="asset__container date__config">
             {parameter.metrics.totalCollectsUptime && (
               <div className="info">
                 <p className="info-txt">Coletas</p>
-                <p>{parameter.metrics.totalCollectsUptime}</p>
+                <p className="info__settings">{parameter.metrics.totalCollectsUptime}</p>
               </div>
             )}
             <div className="info">
@@ -92,10 +92,14 @@ function GeneralViewCard({ parameter, urlRoute }) {
               </p>
             </div>
           </div>
-          <div className="asset__container">
+          <div className="asset__container view-mobile-fix">
             <div className="info">
               <p className="info-txt">Última Coleta</p>
-              <p>{date}</p>
+              <p className="fix-size">{date}</p>
+            </div>
+            <div className="info">
+              <p className="info-txt center">Temperatura máxima</p>
+              <p>{parameter.specifications.maxTemp}C</p>
             </div>
           </div>
         </>

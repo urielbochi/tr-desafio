@@ -6,7 +6,7 @@ import {
   resetLocalStorageData,
 } from "../../services/generalFunctions";
 import "./modalAddAssets.css";
-import "./modalEdit.css";
+import "./modalButtons.css";
 
 function AddAndResetModal({ objectProp }) {
   const [showModal, setShowModal] = useState(false);
@@ -36,12 +36,12 @@ function AddAndResetModal({ objectProp }) {
 
   return (
     <div>
-        <button
-          className="modal__general__first-button"
-          onClick={() => renderForm()}
-        >
-          <i class="fa-solid fa-plus"></i> Adicionar novo
-        </button>
+      <button
+        className="modal__general__first-button"
+        onClick={() => renderForm()}
+      >
+        <i class="fa-solid fa-plus"></i> Adicionar novo
+      </button>
       <button
         className="modal__general__first-button"
         onClick={() => resetLocalStorageData(url, setMainData, urlRoute)}

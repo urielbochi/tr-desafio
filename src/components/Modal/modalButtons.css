@@ -20,6 +20,11 @@
   );
 }
 
+.icons-size__assets {
+  font-size: 20px;
+  cursor: pointer;
+}
+
 .button-fix {
   width: 50px;
 }
@@ -67,6 +72,7 @@
   border-radius: 5px;
   font-size: 16px;
   margin-top: 20px;
+  cursor: pointer;
 }
 
 .modal__edit__button:disabled {

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Modal from "react-modal";
 import { deletePost, editData } from "../../services/fetchAPI";
 import { addEditConditionsAssets } from "../../services/generalFunctions";
-import "./modalEdit.css";
+import "./modalButtons.css";
 
 function GlobalModal({ id, objectProp, renderComponentView, position }) {
   let {

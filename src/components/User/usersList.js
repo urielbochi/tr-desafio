@@ -1,6 +1,5 @@
 import React, { useContext } from "react";
 import { MyContext } from "../../context/context";
-import "./userList.css";
 import GenericRenderComponent from "../DynamicComponents/genericRenderComponent";
 
 function UsersList() {

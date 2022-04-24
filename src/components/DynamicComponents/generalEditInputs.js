@@ -66,7 +66,7 @@ function GeneralEditInputs({ inputObject, setInputObject, urlRoute }) {
           />
           <input
             name="totalUptime"
-            placeholder="Status"
+            placeholder="Tempo de coleta"
             onChange={handleMetricsChange}
           />
           <input
@@ -76,7 +76,7 @@ function GeneralEditInputs({ inputObject, setInputObject, urlRoute }) {
           />
           <input
             name="lastUptimeAt"
-            placeholder="Status"
+            placeholder="Ultima coleta"
             onChange={handleMetricsChange}
           />
           <input

@@ -17,8 +17,15 @@
   font-size: 20px;
 }
 
+.date__config {
+  text-align: center;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
 .red__text {
   color: #f55254;
+  font-weight: 900;
 }
 
 .yellow__text {
@@ -54,9 +61,11 @@ p {
 .asset__container {
   margin-top: 10px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   width: 100%;
+  margin-right: 20px;
 }
+
 
 .info {
   display: flex;
@@ -80,11 +89,30 @@ p {
   font-weight: 700;
 }
 
+.fix-size {
+  font-size: 20px;
+}
+
+.center {
+  width: 100px;
+  text-align: center;
+}
+
 @media only screen and (max-width: 499px) {
   .assert__image-title {
     font-size: 20px;
   }
   .info-txt {
-    font-size: 19px;
+    font-size: 16px;
+  }
+  .assert__image-title {
+    font-size: 16px;
+  }
+  .view-mobile-fix {
+    justify-content: space-evenly;
+    margin-left: 20px;
+  }
+  .info__settings {
+    font-size: 25px;
   }
 }
