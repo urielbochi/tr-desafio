@@ -87,8 +87,12 @@ tr.border-bottom:hover {
     .assets__main {
       width: 100vw;
     }
+    .companies__margin-fix {
+      margin-left: -40px;
+
+    }
     .companies__margin-fix table {
-      width: 400px;
+      width: 450px;
     }
     .units__margin-fix table {
         width: 500px;
@@ -110,7 +114,7 @@ tr.border-bottom:hover {
       height: 500px;
     }
     .companies__margin-fix table {
-      width: 80vw;
+      width: 70vw;
     } 
   }
 }
