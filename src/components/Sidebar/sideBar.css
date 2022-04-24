@@ -1,0 +1,155 @@
+#sidebar {
+  grid-area: sidebar;
+  overflow-y: auto;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  width: 260px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+}
+
+.tractian__search {
+  padding: 10px;
+  border: solid black 1px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.sidebar__title-content {
+  font-size: 40px;
+  font-family: Ariel;
+  letter-spacing: 2px;
+}
+
+.sidebarIcon {
+  visibility: hidden;
+}
+
+.tractian__image-settings {
+  width: 60px;
+}
+
+.tractian__column-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  font-size: 1.2rem;
+}
+
+.tractian__logo-side-container {
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: left;
+  align-items: center;
+  padding: 10px;
+}
+
+.tractian__subtitle {
+  color: rgb(159, 152, 152);
+  font-size: 15px;
+}
+
+.tractian__search-icon {
+  background-image: url("../../images/search.png");
+  background-size: 40px;
+  background-position: 0px;
+  background-repeat: no-repeat;
+  padding-left: 45px;
+}
+
+::placeholder {
+  font-size: 17px;
+}
+
+.sidebar__title > i {
+  font-size: 17px;
+  display: none;
+  font-family: June;
+}
+
+.sidebar__img-space {
+  margin-right: 10px;
+}
+
+.sidebar__menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  row-gap: 10px;
+}
+
+.sidebar__link {
+  width: 100%;
+  display: flex;
+  justify-content: baseline;
+  align-items: center;
+  font-size: 1.5rem;
+  padding: 10px;
+  transition: 0.3s;
+}
+
+.sidebar__link:hover {
+  background-color: #668cdb;
+  font-weight: 700;
+}
+
+.sidebar__link i {
+  width: 20px;
+  margin-left: 10px;
+}
+
+.sidebar__link > a {
+  text-decoration: none;
+  color: #1c1c1c;
+  margin-left: 15px;
+}
+
+.sidebar__column-settings {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar-responsive {
+  display: inline !important;
+  z-index: 9999 !important;
+  left: 0 !important;
+  position: absolute;
+  width: 100vw;
+}
+
+.sidebar__close-button {
+  display: none;
+}
+
+.sidebar-responsive {
+  padding-bottom: 100px;
+}
+
+a:active,
+a:visited,
+a:link,
+a:hover {
+  color: none;
+}
+
+.active,
+.active a {
+  background-color: rgb(94, 120, 166);
+  color: white;
+}
+
+@media only screen and (max-width: 978px) {
+  #sidebar {
+    display: none;
+  }
+  .sidebar__title > i {
+    display: inline;
+  }
+  .sidebar__close-button {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 10px;
+    margin-top: 5px;
+  }
+}

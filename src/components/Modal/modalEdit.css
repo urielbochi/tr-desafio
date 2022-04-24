@@ -1,0 +1,68 @@
+.modal__general__first-button {
+  padding: 5px;
+  font-size: 15px;
+  margin-left: 10px;
+  margin-top: 20px;
+  background-color: #22c55e;
+  color: #ffffff;
+  border-radius: 5px;
+}
+
+.button-fix {
+  width: 50px;
+}
+
+.modal__general__second-button {
+  padding: 8px;
+  border: none;
+  background-color: rgb(97, 151, 76);
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+.modal__general__second-button:disabled {
+  opacity: 0.5;
+}
+
+.assert__data-close {
+  padding: 10px;
+  font-size: 20px;
+  border: none;
+  background-color: red;
+  color: #ffffff;
+  margin-top: 2px;
+  margin-left: 10px;
+  font-size: 16px;
+}
+
+.button__red-color {
+  background-color: red;
+}
+
+.modal__edit__button {
+  padding: 8px;
+  border: none;
+  background-color: rgb(97, 151, 76);
+  color: #ffffff;
+  border-radius: 5px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.modal__edit__button:disabled {
+  opacity: 0.5;
+}
+
+.modal__edit__close__button {
+  padding: 8px;
+  font-size: 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: red;
+  color: #ffffff;
+  margin-top: 2px;
+  font-size: 16px;
+}

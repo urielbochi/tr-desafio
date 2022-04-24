@@ -1,0 +1,115 @@
+.assets__main {
+  color: black;
+}
+
+.assets__render {
+  border-radius: 20px;
+}
+
+.icons-size__assets {
+  font-size: 20px;
+}
+
+.fa-trash-can {
+  color: rgb(141, 19, 19);
+}
+
+.fa-circle-info {
+  color: rgb(15, 15, 63);
+}
+
+.fa-pen-to-square {
+  color: rgb(126, 126, 3);
+}
+
+.assets__button-flexible {
+  display: flex;
+}
+
+.div__buttons-assets {
+  display: flex;
+  width: 100px;
+}
+
+.buttons__crud-container {
+  vertical-align: middle;
+}
+
+.table__overflow {
+  height: 800px;
+  overflow-x: auto;
+  margin-top: 50px;
+}
+
+table {
+  width: 80vw;
+  height: 200px;
+  border-spacing: 0 1em;
+  text-align: center;
+}
+
+.companies__margin-fix {
+  display: flex;
+  justify-content: left;
+  align-items: flex-start;
+}
+
+table > thead {
+  font-size: 1.5rem;
+}
+
+tr.border-bottom {
+  border-bottom: 1px solid #ccc;
+  height: 20px;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+tbody > tr.border-bottom {
+  font-size: 1.2rem;
+}
+
+td:nth-child(3) {
+  text-transform: capitalize;
+}
+
+tr.border-bottom:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 200px) {
+  @media only screen and (max-width: 499px) {
+    table {
+      width: 110vh;
+    }
+    .assets__main {
+      width: 100vw;
+    }
+    .companies__margin-fix {
+      margin-left: -50px;
+    }
+  }
+}
+
+@media only screen and (min-width: 980px) {
+  @media only screen and (max-width: 1366px) {
+    table {
+      width: 100vw;
+    }
+    .assets__main {
+      width: 73vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 500px) {
+  @media only screen and (max-width: 979px) {
+    table {
+      width: 100vh;
+    }
+    .assets__main {
+      width: 97vw;
+    }
+  }
+}

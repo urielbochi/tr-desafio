@@ -1,0 +1,96 @@
+.modal__add-assets {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 25%;
+  left: 39%;
+  right: auto;
+  bottom: auto;
+  background: #fafafa;
+  overflow: auto;
+  border-radius: 0px;
+  outline: none;
+  -webkit-overflow-scrolling: touch;
+  padding-top: 20px;
+}
+
+.modal__view-settings {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  overflow: auto;
+  border-radius: 0px;
+  outline: none;
+  -webkit-overflow-scrolling: touch;
+}
+
+.modal__view-assets-size {
+  width: 60vh;
+  height: 85vh;
+}
+
+.modal__view-users-size {
+  width: 60vh;
+  height: 40vh;
+  border: solid black 1px;
+}
+
+.modal__view-units-size {
+  width: 60vh;
+  height: 26vh;
+  border: solid black 1px;
+}
+
+.modal__view-companies-size {
+  width: 60vh;
+  height: 19vh;
+  border: solid black 1px;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 100ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+@media only screen and (min-width: 200px) {
+  @media only screen and (max-width: 699px) {
+    .modal__add-assets {
+      left: 2%;
+      width: 100vw;
+    }
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  @media only screen and (max-width: 1230px) {
+    .modal__add-assets {
+      left: 20%;
+    }
+    .modal__view-settings {
+      width: 100vh;
+    }
+  }
+}
+
+@media only screen and (min-width: 1240px) {
+  @media only screen and (max-width: 1799px) {
+    .modal__add-assets {
+      left: 35%;
+    }
+  }
+}

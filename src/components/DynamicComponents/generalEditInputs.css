@@ -1,0 +1,61 @@
+.assets__input input,
+select {
+  border-radius: 5px;
+  padding: 9px;
+  margin-bottom: 10px;
+  background-image: linear-gradient(90deg, #2563eb, #2563eb);
+  background-size: 0% 3px;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  transition: background-size 300ms ease;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.assets__input input:focus {
+  outline: none;
+  background-size: 100% 2px;
+}
+
+.assets__input input:hover {
+  background-size: 100% 2px;
+}
+
+.assets__input {
+  display: flex;
+  flex-direction: row;
+  width: 500px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.select__settings {
+  width: 200px;
+  margin-bottom: 10px;
+}
+
+.column__inputs {
+  display: flex;
+  flex-direction: column;
+}
+
+@media only screen and (min-width: 600px) {
+  @media only screen and (max-width: 1799px) {
+    .assets__input {
+      width: 500px;
+    }
+  }
+}
+
+@media only screen and (min-width: 200px) {
+  @media only screen and (max-width: 500px) {
+    .assets__input input {
+      width: 150px;
+    }
+    .select__settings {
+      width: 150px;
+      margin-bottom: 10px;
+    }
+    .assets__input {
+      width: auto;
+    }
+  }
+}
