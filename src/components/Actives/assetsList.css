@@ -36,14 +36,15 @@
 }
 
 .table__overflow {
-  height: 80vh;
-  overflow-x: auto;
   margin-top: 50px;
+}
+
+.scroll-container {
+  height: 80vh;
 }
 
 table {
   width: 80vw;
-  height: 200px;
   border-spacing: 0 1em;
   text-align: center;
 }

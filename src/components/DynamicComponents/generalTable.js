@@ -62,7 +62,7 @@ function GeneralTable({ objectProp }) {
   };
   return (
     <div className={`table__overflow ${addClass}`}>
-      <ScrollContainer className="scroll-container">
+      <ScrollContainer className="scroll-container" nativeMobileScroll={false} vertical={true}>
       <table className={tableClass}>
         <thead>
           <tr>
