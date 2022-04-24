@@ -1,13 +1,13 @@
-# Tractian
+# Tractian Dashboard
 DESKTOP / MOBILE
 
-Projeto desenvolvido para o processo seletivo. Consome uma API e faz ações como adicionar, editar ou excluir. Para acessar determinado objeto, insira na URL o ID do objeto.
+Projeto desenvolvido para o processo seletivo. Consome uma API e faz ações como adicionar, visualizar editar e excluir. Caso as tabelas estejam reduzidas horizontalmente, clique e arraste com o mouse para o lado para visualizar o conteúdo. Também é possível scrollar as tabelas verticalmente.
 
-Na página principal (/home), são renderizados gráficos dinâmicos baseados nas informações da API (não atualizam porque os dados da API não persistem). 
+Na página principal (/home), são renderizados gráficos dinâmicos baseados nas informações da API. Eles atualizam conforme os dados inseridos na tabela assets.
 
-É possível editar e remover somente os cards iniciais que renderizam na página porque as funções de requisição utilizam o ID para localizar o alvo e realizar a ação (os novos IDs não estão registrados na database).
+É possível editar todos os valores e também adicionar novos. O botão reiniciar trás os dados da API novamente.
 
-Botões como o Logout ou pesquisa / usuário estão apenas para demonstração, não são funcionais.
+
 
 ## Deploy
 
@@ -41,9 +41,11 @@ Para rodar localmente,  são necessarias as seguintes dependencias:
 ## Tecnologias utilizadas
 
 * React
+* React Modal
+* React Indiana
 * Axios
 * Font awesome bootstrap
 * Highcharts
 * Hooks
 * Context API
-* Heroku
+* Heroku (deploy)

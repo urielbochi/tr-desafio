@@ -182,7 +182,7 @@ function Main() {
   return (
     <div className="main__container">
       <div className="main__title">
-        <img src={logo}></img>
+        <img className="logo__responsive" src={logo}></img>
       </div>
 
       <div className="user__container-main">

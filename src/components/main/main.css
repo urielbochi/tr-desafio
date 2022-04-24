@@ -86,4 +86,7 @@
   .main__title > img {
     width: 350px;
   }
+  .logo__responsive {
+    width: 90%;
+  }
 }
