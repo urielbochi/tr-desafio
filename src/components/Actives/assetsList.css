@@ -48,6 +48,10 @@ table {
   text-align: center;
 }
 
+.companies__margin-fix table {
+  width: 70vw;
+}
+
 
 
 

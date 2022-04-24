@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import GlobalModal from "../Modal/globalModal";
+import ScrollContainer from 'react-indiana-drag-scroll'
 import GenericRenderById from "./genericRenderById";
 import "../Actives/assetsList.css";
 
@@ -61,6 +62,7 @@ function GeneralTable({ objectProp }) {
   };
   return (
     <div className={`table__overflow ${addClass}`}>
+      <ScrollContainer className="scroll-container">
       <table className={tableClass}>
         <thead>
           <tr>
@@ -125,6 +127,8 @@ function GeneralTable({ objectProp }) {
           })}
         </tbody>
       </table>
+      </ScrollContainer>
+
     </div>
   );
 }
