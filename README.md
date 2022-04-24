@@ -1,7 +1,7 @@
 # Tractian Dashboard
 DESKTOP / MOBILE | Responsivo
 
-Projeto desenvolvido para o processo seletivo. Consome uma API e faz ações como adicionar, visualizar editar e excluir. Caso as tabelas estejam reduzidas horizontalmente, clique e arraste o mouse para o lado para visualizar o conteúdo. Também é possível scrollar as tabelas verticalmente.
+Projeto desenvolvido para o processo seletivo. Consome uma API e faz ações como adicionar, visualizar editar e excluir (os botões ficam na coluna ações). Caso as tabelas estejam reduzidas horizontalmente, clique e arraste o mouse para o lado para visualizar o conteúdo. Também é possível scrollar as tabelas verticalmente.
 
 Na página principal (/home), são renderizados gráficos dinâmicos baseados nas informações da API. Eles atualizam conforme os dados inseridos na tabela assets. O botão para adicionar um novo asset só é desbloqueado caso healthscore e temperatura máxima sejam preenchidos.
 
@@ -29,7 +29,7 @@ Para rodar localmente,  são necessárias as seguintes dependências:
 
 ## Instalação
 
-* Clone o repositório em seu computador inserindo o comando  `git clone https://github.com/urielbochi/challenge.git` em seu terminal.
+* Clone o repositório em seu computador inserindo o comando  `git clone https://github.com/urielbochi/tr-desafio.git` em seu terminal.
 * Com seu terminal, acesse a pasta onde foi clonado o repositório. Veja [como abrir uma pasta pelo terminal](https://gov-civil-setubal.pt/how-open-file-folder-command-prompt-windows-10#:~:text=Normalmente%2C%20voc%C3%AA%20tem%20duas%20maneiras,diretamente%20no%20Prompt%20de%20Comando.&text=Voc%C3%AA%20pode%20usar%20o%20comando,cd%20C%3A%20Users%20mini%20Desktop%20.)
 * No repositório raiz, instale a dependência a seguir:
   * `npm install` 
