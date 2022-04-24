@@ -54,6 +54,7 @@ table {
   align-items: flex-start;
 }
 
+
 table > thead {
   font-size: 1.5rem;
 }
@@ -81,7 +82,7 @@ tr.border-bottom:hover {
 @media only screen and (min-width: 200px) {
   @media only screen and (max-width: 499px) {
     table {
-      width: 110vh;
+      width: 140vh;
     }
     .assets__main {
       width: 100vw;
@@ -89,6 +90,11 @@ tr.border-bottom:hover {
     .companies__margin-fix {
       margin-left: -50px;
     }
+    .units__margin-fix table {
+        width: 500px;
+    }
+    
+   
   }
 }
 

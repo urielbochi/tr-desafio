@@ -6,9 +6,17 @@ import "../Actives/assetsList.css";
 function GeneralTable({ objectProp }) {
   const { url, mainData, setMainData, urlRoute } = objectProp;
   const [addClass, setAddClass] = useState("");
+  const [tableClass, setTableClass] = useState("");
+
   useEffect(() => {
     if (urlRoute === "companies") {
       setAddClass("companies__margin-fix");
+    }
+    else if (urlRoute === "units") {
+      setAddClass("units__margin-fix")
+    }
+    else if (urlRoute === "assets") {
+      setTableClass("table__assets-mobile")
     }
   }, []);
   const returnWhenRouteIs = () => {
@@ -53,7 +61,7 @@ function GeneralTable({ objectProp }) {
   };
   return (
     <div className={`table__overflow ${addClass}`}>
-      <table>
+      <table className={tableClass}>
         <thead>
           <tr>
             {returnWhenRouteIs()}
