@@ -65,6 +65,10 @@
   display: block;
 }
 
+.cont-mrgbtm {
+  margin-bottom: 20px;
+}
+
 @media only screen and (max-width: 499px) {
   .main__cards {
     flex-direction: column;
@@ -76,8 +80,5 @@
   }
   .main__title > img {
     width: 350px;
-  }
-  .cont-mrgbtm {
-    margin-bottom: 20px;
   }
 }

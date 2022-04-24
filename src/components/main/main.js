@@ -4,6 +4,13 @@ import Highcharts from "highcharts";
 import HighchartsReact from "highcharts-react-official";
 import { useContext, useEffect, useRef, useState } from "react";
 import userIcon from "../../images/user.png";
+import machineIcon from '../../images/machineIcon.png'
+import machineOperating from '../../images/machineOperating.png'
+import machineAlert from '../../images/machineAlert.png'
+import machineDowntime from '../../images/machineDowntime.png'
+
+
+
 import { MyContext } from "../../context/context";
 import { recoverFromLocalStorage } from "../../services/generalFunctions";
 
@@ -187,28 +194,28 @@ function Main() {
             <p>{recoverDataFromLocalStorage.length}</p>
           )}
           <div className="user__icon-container cont-mrgbtm">
-            <img className="image__icons-settings" src={userIcon} />
+            <img className="image__icons-settings" src={machineIcon} />
           </div>
         </div>
         <div className="user__container-column cont-mrgbtm">
           <p>Operando</p>
           <p>{operating}</p>
           <div className="user__icon-container">
-            <img className="image__icons-settings" src={userIcon} />
+            <img className="image__icons-settings" src={machineOperating} />
           </div>
         </div>
         <div className="user__container-column cont-mrgbtm">
           <p>Em alerta</p>
           <p>{alert}</p>
           <div className="user__icon-container">
-            <img className="image__icons-settings" src={userIcon} />
+            <img className="image__icons-settings" src={machineAlert} />
           </div>
         </div>
         <div className="user__container-column cont-mrgbtm">
           <p>Desligadas</p>
           <p>{downtime}</p>
           <div className="user__icon-container">
-            <img className="image__icons-settings" src={userIcon} />
+            <img className="image__icons-settings" src={machineDowntime} />
           </div>
         </div>
       </div>
