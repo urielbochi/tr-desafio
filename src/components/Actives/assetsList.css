@@ -36,8 +36,10 @@
 }
 
 .table__overflow {
-  height: 750px;
+  display: block;
+  width: 100%;
   overflow-x: auto;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
   margin-top: 50px;
 }
 
@@ -51,9 +53,6 @@ table {
 .companies__margin-fix table {
   width: 70vw;
 }
-
-
-
 
 table > thead {
   font-size: 1.5rem;
@@ -74,7 +73,6 @@ td:nth-child(3) {
   text-transform: capitalize;
 }
 
-
 @media only screen and (min-width: 200px) {
   @media only screen and (max-width: 499px) {
     table {
@@ -85,16 +83,13 @@ td:nth-child(3) {
     }
     .companies__margin-fix {
       margin-left: -40px;
-
     }
     .companies__margin-fix table {
       width: 450px;
     }
     .units__margin-fix table {
-        width: 500px;
+      width: 500px;
     }
-    
-   
   }
 }
 
@@ -109,10 +104,9 @@ td:nth-child(3) {
 
     .companies__margin-fix table {
       width: 70vw;
-    } 
+    }
   }
 }
-
 
 @media only screen and (min-width: 1201px) {
   @media only screen and (max-width: 1366px) {
@@ -124,7 +118,7 @@ td:nth-child(3) {
     }
     .companies__margin-fix table {
       width: 70vw;
-    } 
+    }
   }
 }
 
