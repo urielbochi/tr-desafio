@@ -99,7 +99,8 @@ tr.border-bottom:hover {
         width: 500px;
     }
     .table__overflow {
-      height: 750px;
+      height: 100vh;
+      overflow-y: hidden;
     }
    
   }
