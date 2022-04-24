@@ -183,8 +183,6 @@ function Main() {
     <div className="main__container">
       <div className="main__title">
         <img src={logo}></img>
-        <p>Welcome to your dashboard...</p>
-        <div className="main__greeting"></div>
       </div>
 
       <div className="user__container-main">

@@ -36,16 +36,17 @@ function AddAndResetModal({ objectProp }) {
 
   return (
     <div>
-      <button
-        className="modal__general__first-button"
-        onClick={() => renderForm()}
-      >
-        Adicionar novo
-      </button>
+        <button
+          className="modal__general__first-button"
+          onClick={() => renderForm()}
+        >
+          <i class="fa-solid fa-plus"></i> Adicionar novo
+        </button>
       <button
         className="modal__general__first-button"
         onClick={() => resetLocalStorageData(url, setMainData, urlRoute)}
       >
+        <i class="fa fa-refresh icon__refresh" aria-hidden="true"></i>
         Reiniciar
       </button>
       <Modal

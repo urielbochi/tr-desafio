@@ -1,5 +1,6 @@
 .navbar {
-  background: #ffffff;
+  background: rgb(31,66,158);
+  background: linear-gradient(90deg, rgba(31,66,158,1) 0%, rgba(31,66,158,1) 52%, rgba(35,92,218,1) 93%);
   grid-area: nav;
   height: 60px;
   display: flex;
@@ -27,8 +28,8 @@
 }
 
 .navbar__left .active_link {
-  color: #265acc;
-  border-bottom: 3px solid #265acc;
+  color: white;
+  border-bottom: 3px solid #939393;
   padding-bottom: 12px;
 }
 

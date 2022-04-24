@@ -1,15 +1,32 @@
 .modal__general__first-button {
-  padding: 5px;
+  padding: 10px;
   font-size: 15px;
   margin-left: 10px;
   margin-top: 20px;
-  background-color: #22c55e;
+  background: rgb(11, 170, 232);
   color: #ffffff;
   border-radius: 5px;
+  width: 150px;
+}
+
+.modal__general__first-button:hover {
+  transition: 3s;
+  background: rgb(31, 66, 158);
+  background: linear-gradient(
+    90deg,
+    rgba(31, 66, 158, 1) 20%,
+    rgba(13, 66, 203, 1) 52%,
+    rgba(35, 92, 218, 1) 70%
+  );
 }
 
 .button-fix {
   width: 50px;
+}
+
+.icon__refresh {
+  margin-left: -25px;
+  margin-right: 10px;
 }
 
 .modal__general__second-button {

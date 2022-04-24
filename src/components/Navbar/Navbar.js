@@ -11,7 +11,7 @@ function NavBar({ sideBarOpen, openSideBar }) {
       </div>
       <div className="navbar__left">
         <a
-          className={clicked ? "active_link" : ""}
+          className="active_link"
           onClick={() => {
             setClicked(true);
           }}

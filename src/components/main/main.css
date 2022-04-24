@@ -4,8 +4,6 @@
 }
 .main__title {
   margin-top: 20px;
-  display: flex;
-  flex-direction: column;
 }
 .main__title > img {
   width: 400px;
@@ -68,6 +66,13 @@
 .cont-mrgbtm {
   margin-bottom: 20px;
 }
+
+.welcome__text-main {
+  font-weight: 400;
+  display: none;
+}
+
+
 
 @media only screen and (max-width: 499px) {
   .main__cards {
