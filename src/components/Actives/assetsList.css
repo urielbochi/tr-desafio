@@ -104,7 +104,10 @@ tr.border-bottom:hover {
       width: 100vw;
     }
     .assets__main {
-      width: 73vw;
+      width: 80vw;
+    }
+    .table__overflow {
+      height: 500px;
     }
   }
 }
@@ -112,10 +115,13 @@ tr.border-bottom:hover {
 @media only screen and (min-width: 500px) {
   @media only screen and (max-width: 979px) {
     table {
-      width: 100vh;
+      width: 150vw;
     }
     .assets__main {
       width: 97vw;
+    }
+    .units__margin-fix table {
+      width: 100vw;
     }
   }
 }
