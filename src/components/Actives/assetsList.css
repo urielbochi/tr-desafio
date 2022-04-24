@@ -38,7 +38,7 @@
 .table__overflow {
   margin-top: 50px;
   overflow-x: scroll;
-  height: 80vh;
+  height: 750px;
 }
 
 .scroll-container {
@@ -99,7 +99,7 @@ tr.border-bottom:hover {
         width: 500px;
     }
     .table__overflow {
-      height: 100vh;
+      height: 750px;
     }
    
   }
